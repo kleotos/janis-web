@@ -27,10 +27,6 @@ div.text {
   color: white;
   font-size: 28px;
 }
-.logo span {
-  color: #ea1538;
-  text-transform: uppercase;
-}
 
 nav ul li {
   list-style-type: none;
@@ -386,5 +382,11 @@ section .section-2 {
   }
   section .section-2 {
     visibility: hidden;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
